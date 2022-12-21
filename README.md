@@ -1,14 +1,21 @@
-# Ingot
-A bookmarklet to disable extensions based on LTBEEF with an interface based on the chrome extension page
+# Acer
+A bookmarklet to disable extensions with an interface based on the chrome extension page
 
-### Installation
-For easy setup go the the website at https://fognetwork.github.io/Ingot
+### Acer
+For easy setup go the the website at https://brendandenzel.github.io/acer/
 
-1. Show your bookmarks bar with `ctrl + shift + b`
+1. Open the website
 
-2. Right click on the bar and choose `Add Page`
+2. Drag the Acer button to youyr bookmark bar
 
-3. Set the name to `Ingot` and the URL to the code below or [here](https://github.com/FogNetwork/Ingot/blob/main/bookmarklet.js)
+3. Then open click the button Acer
+
+4. Once you open Acer click redirect
+
+5. Then you click on the Acer bookmark in your bookmark on that new webstite you were redirected to
+
+
+6. Then your free to turn off any extention you want
 
 ```js
 javascript:(function () {var a = document.createElement('script');a.src = 'https://cdn.jsdelivr.net/gh/FogNetwork/Ingot/ingot.min.js';document.body.appendChild(a);}())
